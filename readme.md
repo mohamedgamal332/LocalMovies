@@ -41,15 +41,16 @@ A simple, yet feature-rich, local video player that runs entirely on your Linux 
 *   **Desktop Focus:** No specific mobile support or responsiveness optimizations.
 
 ## 🛠️ Project Structure
-
+<pre>
 local_video_player/
-├── player.py # Flask backend and main script to run
+├── player.py             # Flask backend and main script to run
 ├── templates/
-│ └── index.html # Frontend HTML structure
+│   └── index.html        # Frontend HTML structure
 ├── static/
-│ ├── style.css # Frontend CSS styling
-│ └── script.js # Frontend JavaScript logic
-└── state.json # (Auto-created) Stores playback state
+│   ├── style.css         # Frontend CSS styling
+│   └── script.js         # Frontend JavaScript logic
+└── state.json            # (Auto-created) Stores playback state
+</pre>
 
 
 ## ⚙️ Setup & Installation
